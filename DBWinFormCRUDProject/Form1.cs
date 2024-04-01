@@ -51,7 +51,7 @@ namespace DBWinFormCRUDProject
         private void Form1_Load(object sender, EventArgs e)
         {
 
-            MYDB = new Database("localhost", "root", "admin", "testdb", "3308");
+            MYDB = new Database("localhost", "root", "root", "testdb", "3306");
             
 
         }
